@@ -1,0 +1,1772 @@
+{
+    "segments": [
+        {
+            "start": "00:00",
+            "text": "some text",
+            "entities": [
+                "Sigurd Leeder",
+                "Toni-Areal"
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "Sigurd Leeder",
+            "type": "PER",
+            "variations": [
+                "Sigurd",
+                "Leeder"
+            ],
+            "wikidata": "http://www.wikidata.org/entity/Q547547",
+            "sapa": "http://data.performing-arts.ch/a/49187985-04f9-4280-be72-dc316d9c1e01",
+            "image": "https://media.performing-arts.ch/iiif/image/1027-9-4-6-6/full/max/0/color.jpg"
+        },
+        {
+            "name": "Toni-Areal",
+            "type": "LOC",
+            "variations": [
+                "Toni Areal"
+            ],
+            "wikidata": "http://www.wikidata.org/entity/Q2441730",
+            "image": "https://www.wikidata.org/wiki/Q2441730#/media/File:Toni-Areal_Z\u00fcrich_(Juli_2012).jpg"
+        },
+        {
+            "name": "Transkription",
+            "type": "MISC"
+        },
+        {
+            "name": "Nadja Rothenburger",
+            "type": "PER"
+        },
+        {
+            "name": "Ursula Pellaton",
+            "type": "PER",
+            "variations": [
+                "Liebe Ursula"
+            ]
+        },
+        {
+            "name": "Oral History Gespr\u00e4ch",
+            "type": "MISC"
+        },
+        {
+            "name": "Anf\u00e4nge des B\u00fchnentanzes",
+            "type": "MISC",
+            "variations": [
+                "Anf\u00e4ngen des B\u00fchnentanzes"
+            ]
+        },
+        {
+            "name": "Schweiz",
+            "type": "LOC",
+            "variations": [
+                "der Schweiz"
+            ]
+        },
+        {
+            "name": "Schweizer Tanzarchiv",
+            "type": "LOC",
+            "variations": [
+                "Schweizerischen Tanzarchiv"
+            ]
+        },
+        {
+            "name": "Jean-Pierre Pastori",
+            "type": "PER",
+            "variations": [
+                "Jean-Pierre"
+            ]
+        },
+        {
+            "name": "Lausanne",
+            "type": "LOC",
+            "variations": [
+                "Stadt Lausanne",
+                "Lausanner"
+            ]
+        },
+        {
+            "name": "Alain Bernard",
+            "type": "PER"
+        },
+        {
+            "name": "Museum f\u00fcr Gestaltung",
+            "type": "LOC"
+        },
+        {
+            "name": "Grete M\u00fcller",
+            "type": "PER"
+        },
+        {
+            "name": "St\u00fcck",
+            "type": "MISC",
+            "variations": [
+                "St\u00fccks"
+            ]
+        },
+        {
+            "name": "Kurt Jooss",
+            "type": "PER",
+            "variations": [
+                "Jooss"
+            ]
+        },
+        {
+            "name": "Marianne Forster",
+            "type": "PER"
+        },
+        {
+            "name": "Leeder-Stunde",
+            "type": "MISC",
+            "variations": [
+                "Leeder]-Stunde"
+            ]
+        },
+        {
+            "name": "K\u00f6ln",
+            "type": "LOC"
+        },
+        {
+            "name": "Schweizer",
+            "type": "MISC"
+        },
+        {
+            "name": "Essen",
+            "type": "LOC"
+        },
+        {
+            "name": "Dartington Hall",
+            "type": "LOC"
+        },
+        {
+            "name": "Peter Wright",
+            "type": "PER"
+        },
+        {
+            "name": "Angollo",
+            "type": "PER"
+        },
+        {
+            "name": "Ballet Jooss",
+            "type": "ORG",
+            "variations": [
+                "Jooss"
+            ]
+        },
+        {
+            "name": "England",
+            "type": "LOC"
+        },
+        {
+            "name": "Amerika",
+            "type": "LOC"
+        },
+        {
+            "name": "Deutschland",
+            "type": "LOC"
+        },
+        {
+            "name": "Folkwang Hochschule",
+            "type": "ORG",
+            "variations": [
+                "Folkwang Schule"
+            ]
+        },
+        {
+            "name": "englische",
+            "type": "MISC"
+        },
+        {
+            "name": "englischen",
+            "type": "MISC"
+        },
+        {
+            "name": "deutschen",
+            "type": "MISC"
+        },
+        {
+            "name": "Krieg",
+            "type": "MISC"
+        },
+        {
+            "name": "Chile",
+            "type": "LOC"
+        },
+        {
+            "name": "London",
+            "type": "LOC"
+        },
+        {
+            "name": "Herisau",
+            "type": "LOC"
+        },
+        {
+            "name": "Sigurd Leeder School of Dance",
+            "type": "ORG"
+        },
+        {
+            "name": "Choreo 77",
+            "type": "ORG"
+        },
+        {
+            "name": "Kurt Fr\u00f6hlich",
+            "type": "PER"
+        },
+        {
+            "name": "Unterrichtsmaterial",
+            "type": "MISC"
+        },
+        {
+            "name": "Et\u00fcden",
+            "type": "MISC"
+        },
+        {
+            "name": "Dartington Hall",
+            "type": "ORG"
+        },
+        {
+            "name": "Jean C\u00e9bron",
+            "type": "PER"
+        },
+        {
+            "name": "Rudolf von Laban",
+            "type": "PER",
+            "variations": [
+                "Laban",
+                "Rudolf Laban"
+            ]
+        },
+        {
+            "name": "Suzanne Perrottet",
+            "type": "PER",
+            "variations": [
+                "Suzanne"
+            ]
+        },
+        {
+            "name": "Dadaismus",
+            "type": "MISC",
+            "variations": [
+                "Zeit des Dadaismus",
+                "Dada"
+            ]
+        },
+        {
+            "name": "Monte Verit\u00e0",
+            "type": "LOC",
+            "variations": [
+                "Monte Dada"
+            ]
+        },
+        {
+            "name": "H\u00e4ssler",
+            "type": "PER"
+        },
+        {
+            "name": "Kunsthaus",
+            "type": "LOC",
+            "variations": [
+                "Kunsthaus Stunden"
+            ]
+        },
+        {
+            "name": "franz\u00f6sische",
+            "type": "MISC"
+        },
+        {
+            "name": "franz\u00f6sischen",
+            "type": "MISC"
+        },
+        {
+            "name": "Mary Wigman",
+            "type": "PER"
+        },
+        {
+            "name": "Z\u00fcrich",
+            "type": "LOC"
+        },
+        {
+            "name": "Schauspielhaus",
+            "type": "LOC"
+        },
+        {
+            "name": "Opernhaus",
+            "type": "LOC"
+        },
+        {
+            "name": "Hedwig M\u00fcller",
+            "type": "PER"
+        },
+        {
+            "name": "Dresden",
+            "type": "LOC"
+        },
+        {
+            "name": "Z\u00fcrcher Zeit",
+            "type": "MISC"
+        },
+        {
+            "name": "Laban",
+            "type": "LOC"
+        },
+        {
+            "name": "deutscher",
+            "type": "MISC"
+        },
+        {
+            "name": "Uetliberg",
+            "type": "LOC"
+        },
+        {
+            "name": "Z\u00fcriberg",
+            "type": "LOC"
+        },
+        {
+            "name": "Vierwaldst\u00e4ttersee",
+            "type": "LOC"
+        },
+        {
+            "name": "Reformkolonie",
+            "type": "MISC"
+        },
+        {
+            "name": "Jacques Dalcroze",
+            "type": "PER",
+            "variations": [
+                "Dalcroze...",
+                "Dalcroze"
+            ]
+        },
+        {
+            "name": "Musikschule",
+            "type": "ORG"
+        },
+        {
+            "name": "Genf",
+            "type": "LOC",
+            "variations": [
+                "Genfer"
+            ]
+        },
+        {
+            "name": "Russland",
+            "type": "LOC"
+        },
+        {
+            "name": "Hellerau",
+            "type": "LOC"
+        },
+        {
+            "name": "Dalcroze-Institut",
+            "type": "ORG"
+        },
+        {
+            "name": "Irene Steiner",
+            "type": "PER"
+        },
+        {
+            "name": "Winterthur",
+            "type": "LOC"
+        },
+        {
+            "name": "Schwester Wiesenthal",
+            "type": "PER"
+        },
+        {
+            "name": "Marie Rambert",
+            "type": "PER"
+        },
+        {
+            "name": "Knuscht",
+            "type": "PER"
+        },
+        {
+            "name": "Lisa Ullmann",
+            "type": "PER"
+        },
+        {
+            "name": "Meister",
+            "type": "PER"
+        },
+        {
+            "name": "F\u00fcnfeck",
+            "type": "MISC"
+        },
+        {
+            "name": "Hagia Sofia",
+            "type": "LOC"
+        },
+        {
+            "name": "Raumtheater",
+            "type": "MISC"
+        },
+        {
+            "name": "Quadrat",
+            "type": "MISC"
+        },
+        {
+            "name": "Musiknotationen",
+            "type": "MISC"
+        },
+        {
+            "name": "Raumharmonie",
+            "type": "PER",
+            "variations": [
+                "Raumharmonie Bindestrich"
+            ]
+        },
+        {
+            "name": "Dur",
+            "type": "MISC"
+        },
+        {
+            "name": "Moll",
+            "type": "MISC"
+        },
+        {
+            "name": "Skala",
+            "type": "MISC"
+        },
+        {
+            "name": "BEWEGUNGSleiter",
+            "type": "MISC"
+        },
+        {
+            "name": "C-Dur",
+            "type": "MISC"
+        },
+        {
+            "name": "Brustbein",
+            "type": "MISC"
+        },
+        {
+            "name": "Bewegungsskala",
+            "type": "MISC"
+        },
+        {
+            "name": "Laban-Schule",
+            "type": "ORG"
+        },
+        {
+            "name": "Kriegsausbruch",
+            "type": "MISC"
+        },
+        {
+            "name": "Katja Wulff",
+            "type": "PER"
+        },
+        {
+            "name": "Basel",
+            "type": "LOC"
+        },
+        {
+            "name": "Glaanerland",
+            "type": "LOC"
+        },
+        {
+            "name": "Berte Tr\u00fcmpi",
+            "type": "PER"
+        },
+        {
+            "name": "Kinderauftritt",
+            "type": "MISC"
+        },
+        {
+            "name": "Ausdruckstanzschule",
+            "type": "ORG",
+            "variations": [
+                "Ausdruckstanzschulen"
+            ]
+        },
+        {
+            "name": "Schweizerin",
+            "type": "PER"
+        },
+        {
+            "name": "Bad Ragatz",
+            "type": "LOC"
+        },
+        {
+            "name": "Trudi Schoop",
+            "type": "PER"
+        },
+        {
+            "name": "Fridolin",
+            "type": "MISC"
+        },
+        {
+            "name": "Edith Carola",
+            "type": "PER"
+        },
+        {
+            "name": "Z\u00fcricher",
+            "type": "LOC"
+        },
+        {
+            "name": "Choreografie-Wettbewerb",
+            "type": "MISC"
+        },
+        {
+            "name": "Chaplin",
+            "type": "PER"
+        },
+        {
+            "name": "Goslar",
+            "type": "LOC"
+        },
+        {
+            "name": "Max Pfister-Terpis",
+            "type": "PER",
+            "variations": [
+                "Terpis"
+            ]
+        },
+        {
+            "name": "Russes",
+            "type": "ORG"
+        },
+        {
+            "name": "Remisstrasse",
+            "type": "LOC"
+        },
+        {
+            "name": "Wettbewerben",
+            "type": "MISC"
+        },
+        {
+            "name": "Mary Wigman",
+            "type": "PER",
+            "variations": [
+                "Wigman"
+            ]
+        },
+        {
+            "name": "Harald Kreutzberg",
+            "type": "PER",
+            "variations": [
+                "Kreutzberg"
+            ]
+        },
+        {
+            "name": "Hannover",
+            "type": "LOC"
+        },
+        {
+            "name": "Laban-Sch\u00fcler",
+            "type": "MISC",
+            "variations": [
+                "Laban-Leute"
+            ]
+        },
+        {
+            "name": "Paris",
+            "type": "LOC"
+        },
+        {
+            "name": "Amerikanisches",
+            "type": "LOC"
+        },
+        {
+            "name": "deutschsprachigen",
+            "type": "MISC"
+        },
+        {
+            "name": "Grosse Oper in Berlin",
+            "type": "LOC",
+            "variations": [
+                "Grosse Oper"
+            ]
+        },
+        {
+            "name": "Berlin",
+            "type": "LOC"
+        },
+        {
+            "name": "Hans Wacker",
+            "type": "PER"
+        },
+        {
+            "name": "Zweiter Weltkrieg",
+            "type": "MISC",
+            "variations": [
+                "Zweiten Weltkriegs"
+            ]
+        },
+        {
+            "name": "Coppelia",
+            "type": "MISC"
+        },
+        {
+            "name": "Theater",
+            "type": "MISC",
+            "variations": [
+                "Theatern"
+            ]
+        },
+        {
+            "name": "Niddy Impekoven",
+            "type": "PER"
+        },
+        {
+            "name": "Der Gr\u00fcne Tisch",
+            "type": "MISC",
+            "variations": [
+                "Gr\u00fcnen Tisch",
+                "Gr\u00fcne Tisch"
+            ]
+        },
+        {
+            "name": "Erster Weltkrieg",
+            "type": "MISC",
+            "variations": [
+                "Ersten Weltkrieg"
+            ]
+        },
+        {
+            "name": "B\u00fchnenbilder",
+            "type": "MISC"
+        },
+        {
+            "name": "Psychologietests",
+            "type": "MISC"
+        },
+        {
+            "name": "Sophie Taeuber",
+            "type": "PER"
+        },
+        {
+            "name": "Laban-T\u00e4nzerinnen",
+            "type": "MISC",
+            "variations": [
+                "Laban-Frauen"
+            ]
+        },
+        {
+            "name": "Sacre du Printemps",
+            "type": "MISC",
+            "variations": [
+                "Sacre"
+            ]
+        },
+        {
+            "name": "Nijinsky",
+            "type": "PER"
+        },
+        {
+            "name": "Brandenburg",
+            "type": "LOC"
+        },
+        {
+            "name": "M\u00fcnchen",
+            "type": "LOC"
+        },
+        {
+            "name": "afrikanische",
+            "type": "MISC"
+        },
+        {
+            "name": "Cabaret Voltaire",
+            "type": "ORG"
+        },
+        {
+            "name": "Z\u00fcrcher",
+            "type": "MISC"
+        },
+        {
+            "name": "Mori",
+            "type": "PER"
+        },
+        {
+            "name": "Geblieben",
+            "type": "LOC"
+        },
+        {
+            "name": "1:07:50",
+            "type": "LOC"
+        },
+        {
+            "name": "Clotilde von Derp",
+            "type": "PER"
+        },
+        {
+            "name": "Sacharoff",
+            "type": "PER"
+        },
+        {
+            "name": "La Primont",
+            "type": "LOC"
+        },
+        {
+            "name": "Szigeti",
+            "type": "LOC"
+        },
+        {
+            "name": "Laban-Leuten",
+            "type": "MISC"
+        },
+        {
+            "name": "SIE",
+            "type": "ORG"
+        },
+        {
+            "name": "Isadora Duncan",
+            "type": "PER"
+        },
+        {
+            "name": "Charaktert\u00e4nze",
+            "type": "LOC"
+        },
+        {
+            "name": "Corps de Ballet",
+            "type": "ORG"
+        },
+        {
+            "name": "mitmachen",
+            "type": "MISC"
+        },
+        {
+            "name": "Cos\u00ec fan tutte",
+            "type": "MISC"
+        },
+        {
+            "name": "Die Kamera",
+            "type": "MISC"
+        },
+        {
+            "name": "Vorstellungen im Jahr",
+            "type": "MISC"
+        },
+        {
+            "name": "Theatertanz",
+            "type": "MISC"
+        },
+        {
+            "name": "EXTREM",
+            "type": "ORG"
+        },
+        {
+            "name": "Dada-Kreisen",
+            "type": "MISC"
+        },
+        {
+            "name": "Sophie Taeuber-Arp...",
+            "type": "MISC"
+        },
+        {
+            "name": "Brokat",
+            "type": "LOC"
+        },
+        {
+            "name": "Dada-Soir\u00e9e",
+            "type": "MISC"
+        },
+        {
+            "name": "Wollen",
+            "type": "MISC"
+        },
+        {
+            "name": "Du da Bez\u00fcge",
+            "type": "PER"
+        },
+        {
+            "name": "DADA",
+            "type": "PER"
+        },
+        {
+            "name": "VER\u00d6FFENTLICHTE",
+            "type": "ORG"
+        },
+        {
+            "name": "Sodass",
+            "type": "PER"
+        },
+        {
+            "name": "NZZ-Archiv",
+            "type": "ORG"
+        },
+        {
+            "name": "Eben",
+            "type": "LOC"
+        },
+        {
+            "name": "Tessin",
+            "type": "LOC"
+        },
+        {
+            "name": "Trix",
+            "type": "MISC"
+        },
+        {
+            "name": "Beatrix Gutekunst",
+            "type": "PER"
+        },
+        {
+            "name": "Beatrix Tschumi",
+            "type": "PER"
+        },
+        {
+            "name": "ZHDK",
+            "type": "ORG"
+        },
+        {
+            "name": "Julia Markus",
+            "type": "MISC"
+        },
+        {
+            "name": "Julia Markus",
+            "type": "PER"
+        },
+        {
+            "name": "St. Gallen",
+            "type": "LOC"
+        },
+        {
+            "name": "Puzzlesteine",
+            "type": "LOC"
+        },
+        {
+            "name": "Wandervogel",
+            "type": "LOC"
+        },
+        {
+            "name": "Tanzbeschreibungen",
+            "type": "LOC"
+        },
+        {
+            "name": "Reigen",
+            "type": "MISC"
+        },
+        {
+            "name": "Duncan",
+            "type": "PER"
+        },
+        {
+            "name": "Griechen",
+            "type": "MISC"
+        },
+        {
+            "name": "Triton",
+            "type": "PER"
+        },
+        {
+            "name": "R\u00f6cke",
+            "type": "LOC"
+        },
+        {
+            "name": "EINFACH",
+            "type": "ORG"
+        },
+        {
+            "name": "Isadora Duncan",
+            "type": "ORG"
+        },
+        {
+            "name": "Dalcroze ja doppelt auf die Musik",
+            "type": "MISC"
+        },
+        {
+            "name": "Parenthese",
+            "type": "LOC"
+        },
+        {
+            "name": "Dein K\u00f6rper",
+            "type": "PER"
+        },
+        {
+            "name": "Verschiedenes",
+            "type": "PER"
+        },
+        {
+            "name": "Strawinsky",
+            "type": "PER"
+        },
+        {
+            "name": "Periode",
+            "type": "MISC"
+        },
+        {
+            "name": "Acht",
+            "type": "LOC"
+        },
+        {
+            "name": "Isadora",
+            "type": "LOC"
+        },
+        {
+            "name": "Lo\u00efe Fuller",
+            "type": "PER"
+        },
+        {
+            "name": "Lo\u00efe Fuller",
+            "type": "ORG"
+        },
+        {
+            "name": "Jahrb\u00fccher",
+            "type": "ORG"
+        },
+        {
+            "name": "Tanz",
+            "type": "PER"
+        },
+        {
+            "name": "Sutter",
+            "type": "PER"
+        },
+        {
+            "name": "Annemarie Sutter",
+            "type": "PER"
+        },
+        {
+            "name": "Maya K\u00fcbler",
+            "type": "PER"
+        },
+        {
+            "name": "Rowida",
+            "type": "LOC"
+        },
+        {
+            "name": "Ballet Jooss",
+            "type": "MISC"
+        },
+        {
+            "name": "Maya",
+            "type": "MISC"
+        },
+        {
+            "name": "Der Verlorene Sohn",
+            "type": "MISC"
+        },
+        {
+            "name": "Mein Grossvater",
+            "type": "PER"
+        },
+        {
+            "name": "SAPA",
+            "type": "ORG"
+        },
+        {
+            "name": "Landi...",
+            "type": "MISC"
+        },
+        {
+            "name": "Dich",
+            "type": "LOC"
+        },
+        {
+            "name": "Danke",
+            "type": "PER"
+        },
+        {
+            "name": "Landi",
+            "type": "LOC"
+        },
+        {
+            "name": "Schweizerischen Bund",
+            "type": "ORG"
+        },
+        {
+            "name": "Bund f\u00fcr Tanz und Gymnastik...",
+            "type": "ORG"
+        },
+        {
+            "name": "SBTG",
+            "type": "ORG"
+        },
+        {
+            "name": "Schweizerische Bund f\u00fcr Tanz",
+            "type": "ORG"
+        },
+        {
+            "name": "Safa",
+            "type": "MISC"
+        },
+        {
+            "name": "Schweizerische Frauenausstellung",
+            "type": "ORG"
+        },
+        {
+            "name": "Landi",
+            "type": "MISC"
+        },
+        {
+            "name": "Schweizerische Berufsverband f\u00fcr Tanz und Gymnastik",
+            "type": "ORG"
+        },
+        {
+            "name": "Beatrix Tschumi",
+            "type": "LOC"
+        },
+        {
+            "name": "Katja Wulff",
+            "type": "ORG"
+        },
+        {
+            "name": "Ausdruckst\u00e4nzer",
+            "type": "MISC"
+        },
+        {
+            "name": "Rosalia Chladek",
+            "type": "LOC"
+        },
+        {
+            "name": "Person",
+            "type": "MISC"
+        },
+        {
+            "name": "Gr\u00fcnen Tisch",
+            "type": "ORG"
+        },
+        {
+            "name": "Gr\u00fcne",
+            "type": "ORG"
+        },
+        {
+            "name": "Bern",
+            "type": "LOC"
+        },
+        {
+            "name": "Schweizerische Verband f\u00fcr Tanz und Gymnastik",
+            "type": "ORG"
+        },
+        {
+            "name": "Bund",
+            "type": "LOC"
+        },
+        {
+            "name": "spanische",
+            "type": "MISC"
+        },
+        {
+            "name": "Berufst\u00e4nzer",
+            "type": "PER"
+        },
+        {
+            "name": "American Modern Dance",
+            "type": "ORG"
+        },
+        {
+            "name": "\u00d6sterreich",
+            "type": "LOC"
+        },
+        {
+            "name": "Daheim",
+            "type": "LOC"
+        },
+        {
+            "name": "Napoleon Z\u00fcrich",
+            "type": "MISC"
+        },
+        {
+            "name": "Wilhelm Tell",
+            "type": "PER"
+        },
+        {
+            "name": "Nat\u00fcrlichkeit",
+            "type": "MISC"
+        },
+        {
+            "name": "Eigenst\u00e4ndiges",
+            "type": "PER"
+        },
+        {
+            "name": "Fumi Matsuda",
+            "type": "MISC"
+        },
+        {
+            "name": "Wigman-Sch\u00fclerin",
+            "type": "MISC"
+        },
+        {
+            "name": "Tanz-November",
+            "type": "MISC"
+        },
+        {
+            "name": "Hilde Baumann",
+            "type": "PER"
+        },
+        {
+            "name": "dem Krieg",
+            "type": "MISC"
+        },
+        {
+            "name": "Schweizern",
+            "type": "MISC"
+        },
+        {
+            "name": "(2:00:33)",
+            "type": "LOC"
+        },
+        {
+            "name": "TAZ",
+            "type": "ORG"
+        },
+        {
+            "name": "Gr\u00fcne Tisch",
+            "type": "MISC"
+        },
+        {
+            "name": "j\u00fcdische",
+            "type": "MISC"
+        },
+        {
+            "name": "Juden",
+            "type": "MISC"
+        },
+        {
+            "name": "Jobs",
+            "type": "PER"
+        },
+        {
+            "name": "Frieden",
+            "type": "MISC"
+        },
+        {
+            "name": "Joseph Brodsky",
+            "type": "PER"
+        },
+        {
+            "name": "Nachhinein",
+            "type": "LOC"
+        },
+        {
+            "name": "Tatjana Gsovsky",
+            "type": "PER"
+        },
+        {
+            "name": "WOLLTEN",
+            "type": "ORG"
+        },
+        {
+            "name": "nicht-akademische",
+            "type": "MISC"
+        },
+        {
+            "name": "Graham-Technik",
+            "type": "LOC"
+        },
+        {
+            "name": "WIEDER",
+            "type": "ORG"
+        },
+        {
+            "name": "Schwanensee",
+            "type": "MISC"
+        },
+        {
+            "name": "ALLERERSTEN Mal",
+            "type": "MISC"
+        },
+        {
+            "name": "Nurejew",
+            "type": "PER"
+        },
+        {
+            "name": "Papaberiosow",
+            "type": "LOC"
+        },
+        {
+            "name": "Olegkowski",
+            "type": "PER"
+        },
+        {
+            "name": "Sacharoff-St\u00fccke",
+            "type": "LOC"
+        },
+        {
+            "name": "Frankreich",
+            "type": "LOC"
+        },
+        {
+            "name": "Pariser Oper",
+            "type": "ORG"
+        },
+        {
+            "name": "Les Sylphides",
+            "type": "LOC"
+        },
+        {
+            "name": "Grand Ballet",
+            "type": "MISC"
+        },
+        {
+            "name": "Dornr\u00f6schen",
+            "type": "MISC"
+        },
+        {
+            "name": "Engl\u00e4nder",
+            "type": "LOC"
+        },
+        {
+            "name": "Prag",
+            "type": "LOC"
+        },
+        {
+            "name": "Deutsches",
+            "type": "MISC"
+        },
+        {
+            "name": "Pina Bausch",
+            "type": "PER"
+        },
+        {
+            "name": "Zentrum",
+            "type": "ORG"
+        },
+        {
+            "name": "Zeit der Sommerkurse",
+            "type": "ORG"
+        },
+        {
+            "name": "Richtig",
+            "type": "PER"
+        },
+        {
+            "name": "Leeder-Sch\u00fcler",
+            "type": "LOC"
+        },
+        {
+            "name": "Juri Ackermann",
+            "type": "PER"
+        },
+        {
+            "name": "Margit Huber",
+            "type": "PER"
+        },
+        {
+            "name": "Fumi",
+            "type": "PER"
+        },
+        {
+            "name": "Waganowa",
+            "type": "LOC"
+        },
+        {
+            "name": "Deine St\u00e4rke",
+            "type": "MISC"
+        },
+        {
+            "name": "GENIAL",
+            "type": "ORG"
+        },
+        {
+            "name": "Klassiker-Lehrer",
+            "type": "LOC"
+        },
+        {
+            "name": "Tendu",
+            "type": "MISC"
+        },
+        {
+            "name": "Tendu",
+            "type": "LOC"
+        },
+        {
+            "name": "Tendu",
+            "type": "PER"
+        },
+        {
+            "name": "Graham",
+            "type": "LOC"
+        },
+        {
+            "name": "Freien Tanz da",
+            "type": "LOC"
+        },
+        {
+            "name": "Gruppengeschehen",
+            "type": "LOC"
+        },
+        {
+            "name": "Laban",
+            "type": "ORG"
+        },
+        {
+            "name": "Ikarus",
+            "type": "ORG"
+        },
+        {
+            "name": "Flamencos",
+            "type": "LOC"
+        },
+        {
+            "name": "Street-T\u00e4nzer",
+            "type": "MISC"
+        },
+        {
+            "name": "Streetdance",
+            "type": "ORG"
+        },
+        {
+            "name": "Finger",
+            "type": "LOC"
+        },
+        {
+            "name": "Contemporary",
+            "type": "MISC"
+        },
+        {
+            "name": "Street",
+            "type": "MISC"
+        },
+        {
+            "name": "Ikarus.",
+            "type": "MISC"
+        },
+        {
+            "name": "Ausdruckst\u00e4nzerinnen",
+            "type": "ORG"
+        },
+        {
+            "name": "Chur",
+            "type": "LOC"
+        },
+        {
+            "name": "Katja Wulff",
+            "type": "LOC"
+        },
+        {
+            "name": "Meyenburg",
+            "type": "LOC"
+        },
+        {
+            "name": "Oppenheim",
+            "type": "LOC"
+        },
+        {
+            "name": "Pagacini",
+            "type": "PER"
+        },
+        {
+            "name": "Jooss-T\u00e4nzer",
+            "type": "MISC"
+        },
+        {
+            "name": "d\u00e4nische",
+            "type": "MISC"
+        },
+        {
+            "name": "Amerika-Tournee",
+            "type": "LOC"
+        },
+        {
+            "name": "Looser",
+            "type": "LOC"
+        },
+        {
+            "name": "Barbara",
+            "type": "PER"
+        },
+        {
+            "name": "Nachwuchschoreografen",
+            "type": "LOC"
+        },
+        {
+            "name": "NIE",
+            "type": "MISC"
+        },
+        {
+            "name": "Kulturmanager",
+            "type": "LOC"
+        },
+        {
+            "name": "Claude Perrottet",
+            "type": "PER"
+        },
+        {
+            "name": "Erwin Schumann",
+            "type": "PER"
+        },
+        {
+            "name": "Choreo 77",
+            "type": "MISC"
+        },
+        {
+            "name": "Gessnerallee",
+            "type": "MISC"
+        },
+        {
+            "name": "Tag",
+            "type": "MISC"
+        },
+        {
+            "name": "CH-Tanztheater",
+            "type": "ORG"
+        },
+        {
+            "name": "Westend",
+            "type": "LOC"
+        },
+        {
+            "name": "Erika Ackermann",
+            "type": "PER"
+        },
+        {
+            "name": "Leeder-Sch\u00fclern",
+            "type": "MISC"
+        },
+        {
+            "name": "Mann",
+            "type": "PER"
+        },
+        {
+            "name": "Nyon",
+            "type": "PER"
+        },
+        {
+            "name": "Nyon",
+            "type": "LOC"
+        },
+        {
+            "name": "Maguy Marin",
+            "type": "MISC"
+        },
+        {
+            "name": "Berufen",
+            "type": "LOC"
+        },
+        {
+            "name": "Franken",
+            "type": "LOC"
+        },
+        {
+            "name": "Schultern)",
+            "type": "MISC"
+        },
+        {
+            "name": "Zentrum",
+            "type": "LOC"
+        },
+        {
+            "name": "New German Dance",
+            "type": "MISC"
+        },
+        {
+            "name": "Zentraleurop\u00e4ischer Tanz",
+            "type": "MISC"
+        },
+        {
+            "name": "Bl\u00f6des",
+            "type": "LOC"
+        },
+        {
+            "name": "Warum",
+            "type": "PER"
+        },
+        {
+            "name": "Dore Hoyer",
+            "type": "PER"
+        },
+        {
+            "name": "Produktionsbedingungen",
+            "type": "MISC"
+        },
+        {
+            "name": "Deiner",
+            "type": "LOC"
+        },
+        {
+            "name": "Flamenco-T\u00e4nzerinnen",
+            "type": "ORG"
+        },
+        {
+            "name": "Susanna",
+            "type": "MISC"
+        },
+        {
+            "name": "Nina Curti",
+            "type": "PER"
+        },
+        {
+            "name": "Biel",
+            "type": "LOC"
+        },
+        {
+            "name": "D\u00fcsseldorf",
+            "type": "LOC"
+        },
+        {
+            "name": "Appenzeller-Kind",
+            "type": "MISC"
+        },
+        {
+            "name": "Ernst",
+            "type": "PER"
+        },
+        {
+            "name": "Mariinski-Ballett",
+            "type": "MISC"
+        },
+        {
+            "name": "Franzosen",
+            "type": "LOC"
+        },
+        {
+            "name": "Pariser",
+            "type": "LOC"
+        },
+        {
+            "name": "Patrice Bart",
+            "type": "LOC"
+        },
+        {
+            "name": "Mariinski",
+            "type": "MISC"
+        },
+        {
+            "name": "Haus vom Petipa",
+            "type": "LOC"
+        },
+        {
+            "name": "Petipa",
+            "type": "PER"
+        },
+        {
+            "name": "Radwanski",
+            "type": "PER"
+        },
+        {
+            "name": "Petersburg",
+            "type": "LOC"
+        },
+        {
+            "name": "Klassiker-Inszenierungen",
+            "type": "MISC"
+        },
+        {
+            "name": "Schoch",
+            "type": "LOC"
+        },
+        {
+            "name": "Neumeier",
+            "type": "LOC"
+        },
+        {
+            "name": "Mainz",
+            "type": "LOC"
+        },
+        {
+            "name": "Kopenhagen",
+            "type": "LOC"
+        },
+        {
+            "name": "Humphrey",
+            "type": "ORG"
+        },
+        {
+            "name": "CH",
+            "type": "MISC"
+        },
+        {
+            "name": "L\u00e4uft",
+            "type": "PER"
+        },
+        {
+            "name": "Willst Du",
+            "type": "PER"
+        },
+        {
+            "name": "Maja",
+            "type": "LOC"
+        },
+        {
+            "name": "Johannes Schmid",
+            "type": "PER"
+        },
+        {
+            "name": "Explizit",
+            "type": "PER"
+        },
+        {
+            "name": "Margot Fonteyn",
+            "type": "PER"
+        },
+        {
+            "name": "Fonteyn",
+            "type": "ORG"
+        },
+        {
+            "name": "Oberk\u00f6rper",
+            "type": "PER"
+        },
+        {
+            "name": "Leeder",
+            "type": "LOC"
+        },
+        {
+            "name": "Halbspitze",
+            "type": "LOC"
+        },
+        {
+            "name": "Problem",
+            "type": "LOC"
+        },
+        {
+            "name": "Meine Sch\u00fclerinnen",
+            "type": "PER"
+        },
+        {
+            "name": "Der sterbende Schwan",
+            "type": "MISC"
+        },
+        {
+            "name": "Pawlowa",
+            "type": "PER"
+        },
+        {
+            "name": "PERFEKT!",
+            "type": "ORG"
+        },
+        {
+            "name": "JEDER",
+            "type": "MISC"
+        },
+        {
+            "name": "Nurejew",
+            "type": "LOC"
+        },
+        {
+            "name": "GANZ",
+            "type": "ORG"
+        },
+        {
+            "name": "DIE",
+            "type": "MISC"
+        },
+        {
+            "name": "Carnegie Hall",
+            "type": "LOC"
+        },
+        {
+            "name": "ETWAS",
+            "type": "ORG"
+        },
+        {
+            "name": "Russen",
+            "type": "MISC"
+        },
+        {
+            "name": "russische",
+            "type": "MISC"
+        },
+        {
+            "name": "Radmanski",
+            "type": "PER"
+        },
+        {
+            "name": "I.",
+            "type": "PER"
+        },
+        {
+            "name": "Aktion",
+            "type": "MISC"
+        },
+        {
+            "name": "K\u00f6nnt",
+            "type": "PER"
+        },
+        {
+            "name": "YouTube",
+            "type": "MISC"
+        },
+        {
+            "name": "Luzern",
+            "type": "LOC"
+        },
+        {
+            "name": "Tina",
+            "type": "PER"
+        },
+        {
+            "name": "Berner",
+            "type": "LOC"
+        },
+        {
+            "name": "Einfach",
+            "type": "PER"
+        },
+        {
+            "name": "Jahrb\u00fcchern",
+            "type": "LOC"
+        },
+        {
+            "name": "Einfach bei Brauchtumst\u00e4nzen",
+            "type": "LOC"
+        },
+        {
+            "name": "Ehrenzeichen von Basel",
+            "type": "MISC"
+        },
+        {
+            "name": "Gemeinte",
+            "type": "MISC"
+        },
+        {
+            "name": "Schiller",
+            "type": "PER"
+        },
+        {
+            "name": "Heidi Greco",
+            "type": "PER"
+        },
+        {
+            "name": "Nationalfonds",
+            "type": "LOC"
+        },
+        {
+            "name": "Heinrich",
+            "type": "PER"
+        },
+        {
+            "name": "Gottfried Keller",
+            "type": "PER"
+        },
+        {
+            "name": "Obergericht",
+            "type": "LOC"
+        },
+        {
+            "name": "IMMER",
+            "type": "ORG"
+        },
+        {
+            "name": "Tanz",
+            "type": "MISC"
+        },
+        {
+            "name": "Mailand",
+            "type": "LOC"
+        },
+        {
+            "name": "Excelsior",
+            "type": "PER"
+        },
+        {
+            "name": "I",
+            "type": "MISC"
+        },
+        {
+            "name": "Poltern",
+            "type": "LOC"
+        },
+        {
+            "name": "F\u00fcssen",
+            "type": "LOC"
+        },
+        {
+            "name": "Irland",
+            "type": "LOC"
+        },
+        {
+            "name": "Amerikaner",
+            "type": "LOC"
+        },
+        {
+            "name": "S\u00fcdafrikaner",
+            "type": "LOC"
+        },
+        {
+            "name": "S\u00fcdafrika",
+            "type": "LOC"
+        }
+    ]
+}
