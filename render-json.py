@@ -69,11 +69,11 @@ class Entity(object):
 class Segment(object):
 
     def __init__(self, r: pd.Series, entities_dict: dict):
-        self.start = r['start']
+        self.start = r['start'].strip('()')
         self.text = r['text']
         self.entities = [] 
         if not pd.isnull(r['entities']):
-            for e in re.split(r'\s*;\s*', str(r['entities'])):
+            for e in re.split(r'\s*;\s*', str(r['entities']).strip()):
                 if e in entities_dict:
                     self.entities.append(entities_dict[e])
                 else:
