@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  margin: auto;
+}
+
+#nav {
+  background-color: #fdf1d6;
+  text-align: center;
+  padding: 20px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  border: 0.2px solid gray;
+  padding: 0.25em;
+}
+
+.wiki {
+  grid-column: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.NER {
+  grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.vis {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
