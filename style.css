@@ -7,6 +7,14 @@ iframe {
   width: 100%;
 }
 
+#nav {
+  background-color: #fdf1d6;
+  text-align: center;
+  padding: 20px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
 .main {
   display: grid;
   grid-gap: 10px;
