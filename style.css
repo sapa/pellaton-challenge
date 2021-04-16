@@ -32,3 +32,15 @@ iframe {
   grid-row-start: 2;
   grid-row-end: 4;
 }
+
+.wiki {
+  grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.NER {
+  grid-column: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
