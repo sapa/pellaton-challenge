@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  border: 0.2px solid gray;
+  padding: 0.25em;
+}
+
+.vis {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+video {
+  width: 100%;
+}
