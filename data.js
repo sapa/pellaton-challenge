@@ -42,9 +42,18 @@ function on_entity_select(entity) {
         if (typeof segments[i].entities == "object") {
             for (var e in segments[i].entities) {
                 if (segments[i].entities[e] == entity._data.name) {
-                    console.log(segments[i].start);
-                    player.setCurrentTime(100);
-                    show_segment_entities(segments[i].start);
+                    var startTime = segments[i].start
+                    var time_characters = startTime.length
+                    var time_parts = startTime.split(":");
+                    var seconds;
+                    if (time_parts.length == 2){
+                        seconds = parseInt(time_parts[0])*60 + parseInt(time_parts[1])
+                    } else {
+                        seconds = parseInt(time_parts[0])*3600 + parseInt(time_parts[1])*60 + parseInt(startTime[2])
+                    }
+                    player.setCurrentTime(seconds);
+                    player.play();
+                    // show_segment_entities(segments[i].start);
                     break;
                 }
             }
