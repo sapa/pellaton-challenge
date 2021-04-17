@@ -1,10 +1,14 @@
 var entities;
 var segments;
+var current_segment_start = 0;
 
 var iframe = document.querySelector('iframe');
 var player = new Vimeo.Player(iframe);
 player.on('play', function() {
     console.log('played the video!');
+});
+player.on('progress', function(data) {
+    on_player_progress(data['seconds'])
 });
 player.getVideoTitle().then(function(title) {
     console.log('title:', title);
@@ -42,18 +46,10 @@ function on_entity_select(entity) {
         if (typeof segments[i].entities == "object") {
             for (var e in segments[i].entities) {
                 if (segments[i].entities[e] == entity._data.name) {
-                    var startTime = segments[i].start
-                    var time_characters = startTime.length
-                    var time_parts = startTime.split(":");
-                    var seconds;
-                    if (time_parts.length == 2){
-                        seconds = parseInt(time_parts[0])*60 + parseInt(time_parts[1])
-                    } else {
-                        seconds = parseInt(time_parts[0])*3600 + parseInt(time_parts[1])*60 + parseInt(time_parts[2])
-                    }
+                    var seconds = timecode_to_seconds(segments[i].start);
                     player.setCurrentTime(seconds);
                     player.play();
-                    show_segment_entities(startTime);
+                    show_segment_entities(segments[i].start);
                     return
                 }
             }
@@ -61,12 +57,25 @@ function on_entity_select(entity) {
     }
 }
 
+function timecode_to_seconds(tc) {
+    var time_parts = tc.split(":");
+    var seconds;
+    if (time_parts.length == 2){
+        seconds = parseInt(time_parts[0])*60 + parseInt(time_parts[1])
+    } else {
+        seconds = parseInt(time_parts[0])*3600 + parseInt(time_parts[1])*60 + parseInt(time_parts[2])
+    }
+    return seconds
+}
+
 function add_info(target_list, info_object, info_name, info_type) {
-    console.log(info_name, info_object[info_name], typeof info_object[info_name]);
     if (typeof info_object[info_name] == "string") {
         var li = document.createElement('li');
         if (info_type == "link") {
             li.innerHTML = '<a href="' + info_object[info_name] + '" target="_blank">' + info_name + '</a>';
+        } else if (info_type == "image") {
+            img_path = info_object[info_name].replace("/max/", "/!200,200/");
+            li.innerHTML = '<img src="' + img_path + '" width="200" height"200" />';
         } else {
             li.innerHTML = info_name + ": " + info_object[info_name];
         }
@@ -97,6 +106,7 @@ function show_segment_entities(start) {
                                 // }, true);
                                 segment_info.appendChild(entity);
                                 var extras = document.createElement('ul');
+                                add_info(extras, entities[k], "image", "image");
                                 add_info(extras, entities[k], "wikidata", "link");
                                 add_info(extras, entities[k], "sapa", "link");
                                 add_info(extras, entities[k], "dob", "text");
@@ -111,3 +121,6 @@ function show_segment_entities(start) {
     }
 }
 
+function on_player_progress(seconds) {
+    console.log(seconds);
+}
