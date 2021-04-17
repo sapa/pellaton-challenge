@@ -92,7 +92,7 @@ iframe {
 }
 
 .middle {
-   grid-column-start: 2;
+  grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
@@ -100,9 +100,8 @@ iframe {
   padding: 0.25em;
 }
 
-
 /* Style the search field */
-form.example input[type=text] {
+form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -117,7 +116,7 @@ form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -139,4 +138,38 @@ form.example::after {
 #entities {
   max-height: 300px;
   overflow-y: scroll;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+  text-align: justify;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(195, 158, 92, 0.3);
+  transition: all 150ms ease-in-out;
+  background-color: rgba(218, 114, 60, 0.9);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  font-size: larger;
+}
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  color: #fdf1f6;
+}
+
+h1 {
+  background-color: rgba(218, 114, 60, 0.4);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  color: #fdf1d6;
 }
