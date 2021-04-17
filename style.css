@@ -145,25 +145,6 @@ p {
   line-height: 1.2;
   text-align: justify;
 }
-button {
-  display: block;
-  margin: 10px auto;
-  padding: 15px 20px;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 5px 5px 10px rgba(195, 158, 92, 0.3);
-  transition: all 150ms ease-in-out;
-  background-color: rgba(218, 114, 60, 0.9);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-variant: small-caps;
-  font-size: larger;
-}
-
-button:hover {
-  opacity: 0.5;
-  cursor: pointer;
-  color: #fdf1f6;
-}
 
 h1 {
   background-color: rgba(218, 114, 60, 0.4);
