@@ -4,9 +4,6 @@ var current_segment_start = 0;
 
 var iframe = document.querySelector('iframe');
 var player = new Vimeo.Player(iframe);
-player.on('play', function() {
-    console.log('played the video!');
-});
 player.on('progress', function(data) {
     on_player_progress(data['seconds'])
 });
@@ -122,5 +119,16 @@ function show_segment_entities(start) {
 }
 
 function on_player_progress(seconds) {
-    console.log(seconds);
+    var l = 0;
+    for (var i = 0; i < segments.length; i++) { 
+        var s = timecode_to_seconds(segments[i].start);
+        if (seconds < s){
+            break
+        }
+        l = s;
+    }
+    if (l != current_segment_start) {
+        current_segment_start = l;
+        show_segment_entities(segments[i].start);
+    }
 }
