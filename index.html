@@ -9,6 +9,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="functions.js"></script>
     <title>The Pellaton Experience</title>
@@ -27,7 +28,13 @@
       <div class="NER">
         <div class="tabcontent" id="all" style="display: block;">
       
-          <strong>All mentions</strong>
+<!--          <strong>All mentions</strong>-->
+
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
         <ul>
           <li><strong>Persons</strong></li>
             <ul>
@@ -53,7 +60,7 @@
       </div>
       
       <div class="tabcontent" id="chronology">
-        <strong>Mentions' chronology</strong>
+        <!-- <strong>Mentions' chronology</strong> -->
         <ul>
           <li>...</li>
           <li>[01:50] Sigurd Leeder (person)</li>
