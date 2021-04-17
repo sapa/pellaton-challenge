@@ -1,6 +1,15 @@
 var entities;
 var segments;
 
+var iframe = document.querySelector('iframe');
+var player = new Vimeo.Player(iframe);
+player.on('play', function() {
+    console.log('played the video!');
+});
+player.getVideoTitle().then(function(title) {
+    console.log('title:', title);
+});
+
 let request = new XMLHttpRequest();
 request.open('GET', 'pellaton.json');
 request.responseType = 'json';
@@ -34,7 +43,32 @@ function on_entity_select(entity) {
             for (var e in segments[i].entities) {
                 if (segments[i].entities[e] == entity._data.name) {
                     console.log(segments[i].start);
+                    player.setCurrentTime(100);
+                    show_segment_entities(segments[i].start);
                     break;
+                }
+            }
+        }
+    }
+}
+
+function show_segment_entities(start) {
+    var segment_info = document.getElementById('entities_info');
+    for (var i = 0; i < segments.length; i++) { 
+        if (segments[i].start == start) {
+            var entities = [];
+            if (typeof segments[i].entities == "object") {
+                for (var j = 0; j < segments[i].entities.length; j++) {
+                    var e = segments[i].entities[j];
+                    if (!entities.includes(e)) {
+                        entities.push(e)
+                        for (var k = 0; k < entities.length; k++) {
+                            if (entities[k] == e) {
+                                console.log(e, entities[k]);
+                                console.log(typeof entities[k]);
+                            }
+                        }
+                    }
                 }
             }
         }
