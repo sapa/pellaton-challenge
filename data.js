@@ -53,28 +53,55 @@ function on_entity_select(entity) {
                     }
                     player.setCurrentTime(seconds);
                     player.play();
-                    // show_segment_entities(segments[i].start);
-                    break;
+                    show_segment_entities(startTime);
+                    return
                 }
             }
         }
     }
 }
 
+function add_info(target_list, info_object, info_name, info_type) {
+    console.log(info_name, info_object[info_name], typeof info_object[info_name]);
+    if (typeof info_object[info_name] == "string") {
+        var li = document.createElement('li');
+        if (info_type == "link") {
+            li.innerHTML = '<a href="' + info_object[info_name] + '" target="_blank">' + info_name + '</a>';
+        } else {
+            li.innerHTML = info_name + ": " + info_object[info_name];
+        }
+        target_list.appendChild(li)
+    }
+}
+
 function show_segment_entities(start) {
     var segment_info = document.getElementById('entities_info');
+    segment_info.innerText = '';
+    var info_list = document.createElement('ul');
+    segment_info.appendChild(info_list);
     for (var i = 0; i < segments.length; i++) { 
         if (segments[i].start == start) {
-            var entities = [];
+            var found_entities = [];
             if (typeof segments[i].entities == "object") {
                 for (var j = 0; j < segments[i].entities.length; j++) {
                     var e = segments[i].entities[j];
-                    if (!entities.includes(e)) {
-                        entities.push(e)
+                    if (!found_entities.includes(e)) {
+                        found_entities.push(e)
                         for (var k = 0; k < entities.length; k++) {
-                            if (entities[k] == e) {
-                                console.log(e, entities[k]);
-                                console.log(typeof entities[k]);
+                            if (entities[k].name == e) {
+                                var entity = document.createElement('li');
+                                entity._data = entities[k];
+                                entity.innerHTML = entities[k].name;
+                                // entity.addEventListener('click', function () {
+                                //     on_entity_select(this);
+                                // }, true);
+                                segment_info.appendChild(entity);
+                                var extras = document.createElement('ul');
+                                add_info(extras, entities[k], "wikidata", "link");
+                                add_info(extras, entities[k], "sapa", "link");
+                                add_info(extras, entities[k], "dob", "text");
+                                add_info(extras, entities[k], "dod", "text");
+                                entity.appendChild(extras);
                             }
                         }
                     }
@@ -83,3 +110,4 @@ function show_segment_entities(start) {
         }
     }
 }
+
