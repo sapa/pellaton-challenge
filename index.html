@@ -16,12 +16,18 @@
   <body>
     <div id="nav">The Pellaton Experience</div>
     <div class="main">
-      <div class="item">Mentions</div>
+      <div class="tab">
+         <button class="tablinks" onclick="openTab(event, 'all')">All mentions</button>
+         <button class="tablinks" onclick="openTab(event, 'chronology')">Mentions' chronology</button>
+      </div>
+
       <div class="item">text</div>
       <div class="item">Reference</div>
       <div class="item">Additional information & material</div>
       <div class="NER">
-        <strong>All mentions</strong>
+        <div class="tabcontent" id="all">
+      
+          <strong>All mentions</strong>
         <ul>
           <li><strong>Persons</strong></li>
             <ul>
@@ -44,6 +50,9 @@
               <li>[name] (<a href="#">01:50</a>)</li>
             </ul>
         </ul>
+      </div>
+      
+      <div class="tabcontent" id="chronology">
         <strong>Mentions' chronology</strong>
         <ul>
           <li>...</li>
@@ -53,6 +62,7 @@
         </ul>
 
       </div>
+    </div>
       <div class="vis">
         <iframe
           src="https://player.vimeo.com/video/511028088?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
