@@ -49,7 +49,7 @@ function on_entity_select(entity) {
                     if (time_parts.length == 2){
                         seconds = parseInt(time_parts[0])*60 + parseInt(time_parts[1])
                     } else {
-                        seconds = parseInt(time_parts[0])*3600 + parseInt(time_parts[1])*60 + parseInt(startTime[2])
+                        seconds = parseInt(time_parts[0])*3600 + parseInt(time_parts[1])*60 + parseInt(time_parts[2])
                     }
                     player.setCurrentTime(seconds);
                     player.play();
