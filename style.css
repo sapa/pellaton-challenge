@@ -90,3 +90,12 @@ iframe {
   text-align: center;
   text-rendering: auto;
 }
+
+.middle {
+   grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 0.2px solid gray;
+  padding: 0.25em;
+}
