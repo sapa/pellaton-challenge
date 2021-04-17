@@ -1991,7 +1991,10 @@
             "name": "Alain Bernard",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q1574103",
-            "sapa": "http://data.performing-arts.ch/a/6c42c391-55ba-4272-9619-591a5add1573"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Alain_Bernard",
+            "sapa": "http://data.performing-arts.ch/a/6c42c391-55ba-4272-9619-591a5add1573",
+            "dob": "30.8.1932",
+            "dod": "18.4.2012"
         },
         {
             "name": "American Modern Dance",
@@ -2045,7 +2048,8 @@
         {
             "name": "Ausdruckst\u00e4nzerinnen",
             "type": "MISC",
-            "wikidata": "http://www.wikidata.org/entity/Q778382"
+            "wikidata": "http://www.wikidata.org/entity/Q778382",
+            "image": "https://media.performing-arts.ch/iiif/image/1027-9-4-5-5/full/max/0/color.jpg"
         },
         {
             "name": "Ausdruckstanzschule",
@@ -2066,7 +2070,9 @@
             "name": "Barbara",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q1804",
-            "sapa": "http://data.performing-arts.ch/a/ada23dac-3bc1-4d77-8433-78e6b5256425"
+            "sapa": "http://data.performing-arts.ch/a/ada23dac-3bc1-4d77-8433-78e6b5256425",
+            "dob": "9.6.1930",
+            "dod": "24.11.1997"
         },
         {
             "name": "Basel",
@@ -2152,7 +2158,8 @@
         },
         {
             "name": "B\u00fchnenbilder",
-            "type": "MISC"
+            "type": "MISC",
+            "wikidata": "http://www.wikidata.org/entity/Q987061"
         },
         {
             "name": "Bund",
@@ -2179,12 +2186,16 @@
         {
             "name": "CH-Tanztheater",
             "type": "ORG",
-            "wikidata": "http://www.wikidata.org/entity/Q29949909"
+            "wikidata": "http://www.wikidata.org/entity/Q29949909",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/CH-Tanztheater,_Z\u00fcrich_ZH",
+            "sapa": "http://data.performing-arts.ch/a/2e85ec2d-a855-4e59-abbb-96e54c0d359e"
         },
         {
             "name": "Chaplin",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q882"
+            "wikidata": "http://www.wikidata.org/entity/Q882",
+            "dob": "16.4.1889",
+            "dod": "25.12.1977"
         },
         {
             "name": "Charaktert\u00e4nze",
@@ -2204,7 +2215,8 @@
         },
         {
             "name": "Choreografie-Wettbewerb",
-            "type": "MISC"
+            "type": "MISC",
+            "sapa": "http://data.performing-arts.ch/a/244eaeac-b8f5-488c-bf0b-276223ddfe29"
         },
         {
             "name": "Chur",
@@ -2216,12 +2228,17 @@
             "name": "Claude Perrottet",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q94891650",
-            "sapa": "http://data.performing-arts.ch/a/7fa73e8e-0f6d-4025-9c13-ae01874ae695"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Claude_Perrottet",
+            "sapa": "http://data.performing-arts.ch/a/7fa73e8e-0f6d-4025-9c13-ae01874ae695",
+            "dob": "15.1.1941",
+            "dod": "16.1.2001"
         },
         {
             "name": "Clotilde von Derp",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q1102565"
+            "wikidata": "http://www.wikidata.org/entity/Q1102565",
+            "dob": "5.11.1892",
+            "dod": "11.1.1974"
         },
         {
             "name": "Contemporary",
@@ -2267,7 +2284,8 @@
         {
             "name": "Dalcroze-Institut",
             "type": "ORG",
-            "wikidata": "http://www.wikidata.org/entity/Q3151752"
+            "wikidata": "http://www.wikidata.org/entity/Q3151752",
+            "sapa": "http://data.performing-arts.ch/a/6db0926b-dfe8-47dd-b853-829736f7510c"
         },
         {
             "name": "d\u00e4nische",
@@ -2284,7 +2302,8 @@
                 "Gr\u00fcnen Tisch",
                 "Gr\u00fcne Tisch",
                 "Gr\u00fcne"
-            ]
+            ],
+            "image": "https://media.performing-arts.ch/iiif/image/1027-5-1-108/full/max/0/color.jpg"
         },
         {
             "name": "Der sterbende Schwan",
@@ -2321,7 +2340,9 @@
             "name": "Dore Hoyer",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q1243822",
-            "sapa": "http://data.performing-arts.ch/a/5e433b7a-f41c-4372-b0b1-b6f00654df73"
+            "sapa": "http://data.performing-arts.ch/a/5e433b7a-f41c-4372-b0b1-b6f00654df73",
+            "dob": "12.12.1911",
+            "dod": "31.12.1967"
         },
         {
             "name": "Dornr\u00f6schen",
@@ -2364,7 +2385,7 @@
         {
             "name": "England",
             "type": "LOC",
-            "wikidata": "http://www.wikidata.org/entity/Q79282"
+            "wikidata": "http://www.wikidata.org/entity/Q21"
         },
         {
             "name": "Engl\u00e4nder",
@@ -2381,7 +2402,8 @@
         {
             "name": "Erika Ackermann",
             "type": "PER",
-            "sapa": "http://data.performing-arts.ch/a/d7f8ddb0-91d1-463a-90b0-1ccef24009e5"
+            "sapa": "http://data.performing-arts.ch/a/d7f8ddb0-91d1-463a-90b0-1ccef24009e5",
+            "image": "https://media.performing-arts.ch/iiif/image/1027-6-8-44-7/full/max/color.jpg"
         },
         {
             "name": "Erster Weltkrieg",
@@ -2395,7 +2417,9 @@
             "name": "Erwin Schumann",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q106017515",
-            "sapa": "http://data.performing-arts.ch/a/8100956b-42ed-4b2c-9d92-229f948fef51"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Erwin_Schumann",
+            "sapa": "http://data.performing-arts.ch/a/8100956b-42ed-4b2c-9d92-229f948fef51",
+            "dob": "12.8.1953"
         },
         {
             "name": "Essen",
@@ -2421,7 +2445,9 @@
             "variations": [
                 "Flamencos"
             ],
-            "wikidata": "http://www.wikidata.org/entity/Q29935018"
+            "wikidata": "http://www.wikidata.org/entity/Q29935018",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Tanzcompagnie_Flamencos_en_route,_Baden_AG",
+            "sapa": "http://data.performing-arts.ch/r/c3e92b31-8d02-461b-a0c2-fa593ff95f5e"
         },
         {
             "name": "Folkwang Hochschule",
@@ -2438,7 +2464,7 @@
         {
             "name": "Frankreich",
             "type": "LOC",
-            "wikidata": "http://www.wikidata.org/entity/Q56234954",
+            "wikidata": "http://www.wikidata.org/entity/Q142",
             "sapa": "http://data.performing-arts.ch/p/804af1fe-911d-449e-9a90-c127110acda5"
         },
         {
@@ -2495,7 +2521,8 @@
         },
         {
             "name": "Gessnerallee",
-            "type": "ORG"
+            "type": "ORG",
+            "sapa": "http://data.performing-arts.ch/o/3157ce75-456f-4687-ab65-97194022af0b"
         },
         {
             "name": "Glaanerland",
@@ -2510,13 +2537,18 @@
             "name": "Gottfried Keller",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q122370",
-            "sapa": "http://data.performing-arts.ch/a/843a5a6f-608c-46b9-98db-ec345a29bb6f"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Gottfried_Keller",
+            "sapa": "http://data.performing-arts.ch/a/843a5a6f-608c-46b9-98db-ec345a29bb6f",
+            "dob": "19.7.1819",
+            "dod": "15.7.1890"
         },
         {
             "name": "Graham",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q487604",
-            "sapa": "http://data.performing-arts.ch/a/13f399f4-de45-4e09-9629-71d33a8d54bd"
+            "sapa": "http://data.performing-arts.ch/a/13f399f4-de45-4e09-9629-71d33a8d54bd",
+            "dob": "11.5.1894",
+            "dod": "1.4.1991"
         },
         {
             "name": "Graham-Technik",
@@ -2530,7 +2562,10 @@
             "name": "Grete M\u00fcller",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q94760465",
-            "sapa": "http://data.performing-arts.ch/a/be056761-7b64-4123-8774-1de9e9f9751b"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Grete_M\u00fcller",
+            "sapa": "http://data.performing-arts.ch/a/be056761-7b64-4123-8774-1de9e9f9751b",
+            "dob": "10.6.1920",
+            "dod": "13.11.2004"
         },
         {
             "name": "Griechen",
@@ -2576,7 +2611,10 @@
                 "Kreutzberg"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q99308",
-            "sapa": "http://data.performing-arts.ch/a/6972a58d-0645-445d-90c0-973255a478ed"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Harald_Kreutzberg",
+            "sapa": "http://data.performing-arts.ch/a/6972a58d-0645-445d-90c0-973255a478ed",
+            "dob": "11.12.1902",
+            "dod": "25.4.1968"
         },
         {
             "name": "H\u00e4ssler",
@@ -2592,7 +2630,8 @@
             "type": "PER",
             "variations": [
                 "Heidi Greco"
-            ]
+            ],
+            "sapa": "http://data.performing-arts.ch/a/52d29199-c820-469c-872a-94303a131553"
         },
         {
             "name": "Hellerau",
@@ -2610,7 +2649,9 @@
             "name": "Hilde Baumann",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q94764283",
-            "sapa": "http://data.performing-arts.ch/a/2b002688-509a-4d72-83f9-dc3959042d44"
+            "sapa": "http://data.performing-arts.ch/a/2b002688-509a-4d72-83f9-dc3959042d44",
+            "dob": "16.4.1914",
+            "dod": "5.11.2001"
         },
         {
             "name": "Humphrey",
@@ -2642,7 +2683,9 @@
                 "Duncan"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q483512",
-            "sapa": "http://data.performing-arts.ch/a/569ad952-808e-4620-906f-8bc100f2419e"
+            "sapa": "http://data.performing-arts.ch/a/569ad952-808e-4620-906f-8bc100f2419e",
+            "dob": "27.5.1877",
+            "dod": "14.9.1927"
         },
         {
             "name": "Jacques Dalcroze",
@@ -2652,7 +2695,10 @@
                 "Dalcroze",
                 "Dalcroze ja doppelt auf die Musik"
             ],
-            "wikidata": "http://www.wikidata.org/entity/Q286062"
+            "wikidata": "http://www.wikidata.org/entity/Q286062",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/\u00c9mile_Jaques-Dalcroze",
+            "dob": "6.7.1865",
+            "dod": "1.7.1950"
         },
         {
             "name": "Jahrb\u00fccher",
@@ -2664,7 +2710,9 @@
         {
             "name": "Jean C\u00e9bron",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q3171505"
+            "wikidata": "http://www.wikidata.org/entity/Q3171505",
+            "dob": "29.4.1927",
+            "dod": "1.2.2019"
         },
         {
             "name": "Jean-Pierre Pastori",
@@ -2673,7 +2721,8 @@
                 "Jean-Pierre"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q3169628",
-            "sapa": "http://data.performing-arts.ch/a/a5b8a4a1-96e3-4bcb-9617-6c95111e6a86"
+            "sapa": "http://data.performing-arts.ch/a/a5b8a4a1-96e3-4bcb-9617-6c95111e6a86",
+            "dob": "26.9.1949"
         },
         {
             "name": "Jobs",
@@ -2683,7 +2732,8 @@
             "name": "Johannes Schmid",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q1698350",
-            "sapa": "http://data.performing-arts.ch/a/12e75200-da8b-4095-95e5-3f1321b22c46"
+            "sapa": "http://data.performing-arts.ch/a/12e75200-da8b-4095-95e5-3f1321b22c46",
+            "dob": "23.10.1973"
         },
         {
             "name": "Jooss-T\u00e4nzer",
@@ -2693,7 +2743,9 @@
             "name": "Joseph Brodsky",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q862",
-            "sapa": "http://data.performing-arts.ch/a/694cc479-6984-44f7-ae41-d4d36d1bf650"
+            "sapa": "http://data.performing-arts.ch/a/694cc479-6984-44f7-ae41-d4d36d1bf650",
+            "dob": "24.5.1940",
+            "dod": "28.1.1996"
         },
         {
             "name": "Juden",
@@ -2716,7 +2768,10 @@
         {
             "name": "Katja Wulff",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q43267718"
+            "wikidata": "http://www.wikidata.org/entity/Q43267718",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Katja_Wulff",
+            "dob": "31.8.1890",
+            "dod": "11.6.1992"
         },
         {
             "name": "Kinderauftritt",
@@ -2788,7 +2843,10 @@
                 "Jooss"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q62011",
-            "sapa": "http://data.performing-arts.ch/a/6c4516e5-fa52-430a-96d7-077f560c80ed"
+            "sapa": "http://data.performing-arts.ch/a/6c4516e5-fa52-430a-96d7-077f560c80ed",
+            "dob": "12.1.1901",
+            "dod": "22.5.1979",
+            "image": "https://media.performing-arts.ch/iiif/image/1027-9-1-1-1/full/max/0/color.jpg"
         },
         {
             "name": "La Primont",
@@ -2853,13 +2911,17 @@
             "name": "Lisa Ullmann",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q3242452",
-            "sapa": "http://data.performing-arts.ch/a/db32df54-78cb-4731-99a5-07e9a1c5e214"
+            "sapa": "http://data.performing-arts.ch/a/db32df54-78cb-4731-99a5-07e9a1c5e214",
+            "dob": "17.6.1907",
+            "dod": "25.1.1985"
         },
         {
             "name": "Lo\u00efe Fuller",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q180505",
-            "sapa": "http://data.performing-arts.ch/a/beda06fb-23c9-4a61-82d5-f5e14b41cb14"
+            "sapa": "http://data.performing-arts.ch/a/beda06fb-23c9-4a61-82d5-f5e14b41cb14",
+            "dob": "22.1.1862",
+            "dod": "1.1.1928"
         },
         {
             "name": "London",
@@ -2877,7 +2939,8 @@
             "name": "Maguy Marin",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q445870",
-            "sapa": "http://data.performing-arts.ch/a/83c45591-4872-4b27-a6f4-18b48bbab45f"
+            "sapa": "http://data.performing-arts.ch/a/83c45591-4872-4b27-a6f4-18b48bbab45f",
+            "dob": "2.6.1951"
         },
         {
             "name": "Mailand",
@@ -2902,7 +2965,9 @@
             "name": "Mann",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q37030",
-            "sapa": "http://data.performing-arts.ch/a/af90230a-0dd4-47aa-a5d3-3a88e220d0f6"
+            "sapa": "http://data.performing-arts.ch/a/af90230a-0dd4-47aa-a5d3-3a88e220d0f6",
+            "dob": "6.6.1875",
+            "dod": "12.8.1955"
         },
         {
             "name": "Margit Huber",
@@ -2916,18 +2981,24 @@
                 "Fonteyn"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q231776",
-            "sapa": "http://data.performing-arts.ch/a/a48118f0-4418-4618-af91-213cfd8dec0a"
+            "sapa": "http://data.performing-arts.ch/a/a48118f0-4418-4618-af91-213cfd8dec0a",
+            "dob": "18.5.1919",
+            "dod": "21.2.1991"
         },
         {
             "name": "Marianne Forster",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q94743727",
-            "sapa": "http://data.performing-arts.ch/a/48f38825-dfb7-4c36-9c4f-a541abd2b860"
+            "sapa": "http://data.performing-arts.ch/a/48f38825-dfb7-4c36-9c4f-a541abd2b860",
+            "dob": "4.10.1943",
+            "dod": "25.1.2014"
         },
         {
             "name": "Marie Rambert",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q240736"
+            "wikidata": "http://www.wikidata.org/entity/Q240736",
+            "dob": "20.2.1888",
+            "dod": "12.6.1982"
         },
         {
             "name": "Mariinski-Ballett",
@@ -2944,7 +3015,10 @@
                 "Wigman"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q77127",
-            "sapa": "http://data.performing-arts.ch/a/83fa286b-fb96-4cce-b3f8-7dcba18eaea0"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Mary_Wigman",
+            "sapa": "http://data.performing-arts.ch/a/83fa286b-fb96-4cce-b3f8-7dcba18eaea0",
+            "dob": "13.11.1886",
+            "dod": "18.9.1973"
         },
         {
             "name": "Max Pfister-Terpis",
@@ -2952,7 +3026,10 @@
             "variations": [
                 "Terpis"
             ],
-            "wikidata": "http://www.wikidata.org/entity/Q21040197"
+            "wikidata": "http://www.wikidata.org/entity/Q21040197",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Max_Terpis",
+            "dob": "1.3.1889",
+            "dod": "18.3.1958"
         },
         {
             "name": "Maya K\u00fcbler",
@@ -2961,7 +3038,10 @@
                 "Maya"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q57398307",
-            "sapa": "http://data.performing-arts.ch/a/73ba5b55-6a9b-4127-a6b8-393c3402647f"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Maya_K\u00fcbler",
+            "sapa": "http://data.performing-arts.ch/a/73ba5b55-6a9b-4127-a6b8-393c3402647f",
+            "dob": "10.10.1914",
+            "dod": "9.1.1995"
         },
         {
             "name": "Meister",
@@ -2983,7 +3063,8 @@
             "variations": [
                 "Monte Dada"
             ],
-            "wikidata": "http://www.wikidata.org/entity/Q870148"
+            "wikidata": "http://www.wikidata.org/entity/Q870148",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Monte_Verit\u00e0,_Ascona_TI"
         },
         {
             "name": "Mori",
@@ -3038,7 +3119,8 @@
             "name": "Neumeier",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q246321",
-            "sapa": "http://data.performing-arts.ch/a/ec58665f-e305-4e1d-8082-c16cafe3ed63"
+            "sapa": "http://data.performing-arts.ch/a/ec58665f-e305-4e1d-8082-c16cafe3ed63",
+            "dob": "24.8.1957"
         },
         {
             "name": "New German Dance",
@@ -3052,12 +3134,17 @@
             "name": "Niddy Impekoven",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q1725437",
-            "sapa": "http://data.performing-arts.ch/a/1edcd880-36e3-423a-83b5-5fb5d49c1ace"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Niddy_Impekoven",
+            "sapa": "http://data.performing-arts.ch/a/1edcd880-36e3-423a-83b5-5fb5d49c1ace",
+            "dob": "2.11.1904",
+            "dod": "20.11.2002"
         },
         {
             "name": "Nijinsky",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q194363"
+            "wikidata": "http://www.wikidata.org/entity/Q194363",
+            "dob": "12.3.1889",
+            "dod": "8.4.1950"
         },
         {
             "name": "Nina Curti",
@@ -3067,7 +3154,9 @@
             "name": "Nurejew",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q84217",
-            "sapa": "http://data.performing-arts.ch/a/8258784d-3b9f-4ce5-a638-f08a634106ba"
+            "sapa": "http://data.performing-arts.ch/a/8258784d-3b9f-4ce5-a638-f08a634106ba",
+            "dob": "17.3.1938",
+            "dod": "6.1.1993"
         },
         {
             "name": "Nyon",
@@ -3094,7 +3183,8 @@
         {
             "name": "Opernhaus",
             "type": "LOC",
-            "wikidata": "http://www.wikidata.org/entity/Q670406"
+            "wikidata": "http://www.wikidata.org/entity/Q670406",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Opernhaus_Z\u00fcrich,_Z\u00fcrich_ZH"
         },
         {
             "name": "Oppenheim",
@@ -3169,13 +3259,17 @@
                 "Haus vom Petipa"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q312320",
-            "sapa": "http://data.performing-arts.ch/a/6f38455e-1b5c-4f20-8066-4a6579d1737a"
+            "sapa": "http://data.performing-arts.ch/a/6f38455e-1b5c-4f20-8066-4a6579d1737a",
+            "dob": "11.3.1818",
+            "dod": "1.7.1910"
         },
         {
             "name": "Pina Bausch",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q155538",
-            "sapa": "http://data.performing-arts.ch/a/1e971692-2469-43aa-a219-30771262d139"
+            "sapa": "http://data.performing-arts.ch/a/1e971692-2469-43aa-a219-30771262d139",
+            "dob": "27.7.1940",
+            "dod": "30.6.2009"
         },
         {
             "name": "Poltern",
@@ -3215,7 +3309,9 @@
         {
             "name": "Radwanski",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q2061774"
+            "wikidata": "http://www.wikidata.org/entity/Q2061774",
+            "dob": "11.1.1854",
+            "dod": "1.1.1929"
         },
         {
             "name": "Raumharmonie",
@@ -3248,7 +3344,10 @@
             "name": "Rosalia Chladek",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q979906",
-            "sapa": "http://data.performing-arts.ch/a/51231fcb-6da9-4337-816b-3f4ca8ef09d2"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Rosalia_Chladek",
+            "sapa": "http://data.performing-arts.ch/a/51231fcb-6da9-4337-816b-3f4ca8ef09d2",
+            "dob": "21.5.1905",
+            "dod": "3.7.1995"
         },
         {
             "name": "Rowida",
@@ -3262,7 +3361,10 @@
                 "Rudolf Laban"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q213712",
-            "sapa": "http://data.performing-arts.ch/a/9dd84202-8274-4fa3-96a1-358cdea7ed5a"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Rudolf_von_Laban",
+            "sapa": "http://data.performing-arts.ch/a/9dd84202-8274-4fa3-96a1-358cdea7ed5a",
+            "dob": "15.12.1879",
+            "dod": "1.7.1958"
         },
         {
             "name": "Russen",
@@ -3286,7 +3388,9 @@
             "name": "Sacharoff",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q2581909",
-            "sapa": "http://data.performing-arts.ch/a/2bb410f5-6067-4f3d-be13-5f71d6d96a54"
+            "sapa": "http://data.performing-arts.ch/a/2bb410f5-6067-4f3d-be13-5f71d6d96a54",
+            "dob": "28.5.1881",
+            "dod": "1.3.1967"
         },
         {
             "name": "Sacharoff-St\u00fccke",
@@ -3396,7 +3500,10 @@
                 "Leeder"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q547547",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Sigurd_Leeder",
             "sapa": "http://data.performing-arts.ch/a/49187985-04f9-4280-be72-dc316d9c1e01",
+            "dob": "14.8.1902",
+            "dod": "20.6.1981",
             "image": "https://media.performing-arts.ch/iiif/image/1027-9-4-6-6/full/max/0/color.jpg"
         },
         {
@@ -3421,7 +3528,10 @@
                 "Sophie Taeuber-Arp..."
             ],
             "wikidata": "http://www.wikidata.org/entity/Q254395",
-            "sapa": "http://data.performing-arts.ch/a/3766cb5d-4b79-44d1-b9b9-8fe7722adfb7"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Sophie_Taeuber-Arp",
+            "sapa": "http://data.performing-arts.ch/a/3766cb5d-4b79-44d1-b9b9-8fe7722adfb7",
+            "dob": "19.1.1889",
+            "dod": "13.1.1943"
         },
         {
             "name": "spanische",
@@ -3470,7 +3580,7 @@
         {
             "name": "Susanna",
             "type": "PER",
-            "sapa": "http://data.performing-arts.ch/a/54886dcb-abf0-4877-bfd0-43a680a34aee"
+            "sapa": "http://data.performing-arts.ch/a/5fca99bf-703e-4895-b21a-effe7827ed4f"
         },
         {
             "name": "Suzanne Perrottet",
@@ -3479,7 +3589,10 @@
                 "Suzanne"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q21087539",
-            "sapa": "http://data.performing-arts.ch/a/188bc3d3-ffb5-43aa-9714-2d54a096901f"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Suzanne_Perrottet",
+            "sapa": "http://data.performing-arts.ch/a/188bc3d3-ffb5-43aa-9714-2d54a096901f",
+            "dob": "13.9.1889",
+            "dod": "10.8.1983"
         },
         {
             "name": "Szigeti",
@@ -3502,7 +3615,9 @@
             "name": "Tatjana Gsovsky",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q107995",
-            "sapa": "http://data.performing-arts.ch/a/5e15a34d-acc0-4a4d-a44d-9b3450cef40a"
+            "sapa": "http://data.performing-arts.ch/a/5e15a34d-acc0-4a4d-a44d-9b3450cef40a",
+            "dob": "18.3.1901",
+            "dod": "29.9.1993"
         },
         {
             "name": "TAZ",
@@ -3540,6 +3655,7 @@
             "variations": [
                 "Toni Areal"
             ],
+            "wikidata": "http://www.wikidata.org/entity/Q2441730",
             "image": "https://www.wikidata.org/wiki/Q2441730#/media/File:Toni-Areal_Z\u00fcrich_(Juli_2012).jpg"
         },
         {
@@ -3550,13 +3666,17 @@
         {
             "name": "Triton",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q7844472"
+            "wikidata": "http://www.wikidata.org/entity/Q7844472",
+            "dob": "23.3.1987"
         },
         {
             "name": "Trudi Schoop",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q124430",
-            "sapa": "http://data.performing-arts.ch/a/13b82c40-433e-4ce3-8f40-ad44dcce2d9f"
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Trudi_Schoop",
+            "sapa": "http://data.performing-arts.ch/a/13b82c40-433e-4ce3-8f40-ad44dcce2d9f",
+            "dob": "9.10.1903",
+            "dod": "14.7.1999"
         },
         {
             "name": "Uetliberg",
@@ -3573,6 +3693,7 @@
             "variations": [
                 "Liebe Ursula"
             ],
+            "wikidata": "http://www.wikidata.org/entity/Q95195773",
             "sapa": "http://data.performing-arts.ch/a/db703db6-7011-41f3-9da4-a4fbcef61c52"
         },
         {
@@ -3589,7 +3710,9 @@
         {
             "name": "Waganowa",
             "type": "PER",
-            "wikidata": "http://www.wikidata.org/entity/Q236413"
+            "wikidata": "http://www.wikidata.org/entity/Q236413",
+            "dob": "14.6.1879",
+            "dod": "5.11.1951"
         },
         {
             "name": "Wandervogel",
@@ -3615,6 +3738,7 @@
         {
             "name": "Winterthur",
             "type": "LOC",
+            "wikidata": "http://www.wikidata.org/entity/Q9125",
             "sapa": "http://data.performing-arts.ch/p/ff37db65-8fff-4640-8088-049f56a9aedb"
         },
         {
@@ -3632,7 +3756,9 @@
         },
         {
             "name": "ZHDK",
-            "type": "ORG"
+            "type": "ORG",
+            "wikidata": "http://www.wikidata.org/entity/Q222450",
+            "theaterlexikon": "http://tls.theaterwissenschaft.ch/wiki/Theaterhochschule_Z\u00fcrich,_Z\u00fcrich_ZH"
         },
         {
             "name": "Z\u00fcrcher",
@@ -3649,6 +3775,7 @@
         {
             "name": "Z\u00fcrich",
             "type": "LOC",
+            "wikidata": "http://www.wikidata.org/entity/Q72",
             "sapa": "http://data.performing-arts.ch/p/e1868a17-fd38-4fb4-bb66-34296284fb37"
         },
         {
