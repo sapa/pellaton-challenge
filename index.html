@@ -16,24 +16,43 @@
   <body>
     <div id="nav">The Pellaton Experience</div>
     <div class="main">
-      <div class="item">Mentions</div>
-      <div class="item">text</div>
-      <div class="item">Reference</div>
-      <div class="item">Additional information</div>
+      <div class="tab">
+         <button class="tablinks active" onclick="openTab(event, 'all')">All mentions</button>
+         <button class="tablinks" onclick="openTab(event, 'chronology')">Mentions' chronology</button>
+      </div>
+
+      <div class="item heading">Videointerview mit Ursula Pellaton</div>
+      <div class="item heading">Lausanne, 2019/05/27</div>
+      <div class="item heading">Additional information & material</div>
       <div class="NER">
-        <strong>All mentions</strong>
+        <div class="tabcontent" id="all" style="display: block;">
+      
+          <strong>All mentions</strong>
         <ul>
-          <li>Persons</li>
-          <ul>
-            <li>Sigurd Leeder (01:50, 04:20)</li>
-            <li>...</li>
+          <li><strong>Persons</strong></li>
+            <ul>
+            <!-- for each entity type=PER -->
+            <li>[name] (<a href="#">01:50</a>, 04:20)</li>
           </ul>
-          <li>Organisations</li>
-          <li>Places</li>
-          <ul>
-            <li>Lausanne</li>
-          </ul>
+          <li><strong>Organisations</strong></li>
+            <ul>
+              <!-- for each entity type=ORG -->
+              <li>[name] (<a href="#">01:50</a>)</li>
+            </ul>
+          <li><strong>Places</strong></li>
+            <ul>
+              <!-- for each entity type=LOC -->
+              <li>[name] (<a href="#">01:50</a>)</li>
+            </ul>
+          <li><strong>Miscellaneous</strong></li>
+            <ul>
+              <!-- for each entity type=MISC -->
+              <li>[name] (<a href="#">01:50</a>)</li>
+            </ul>
         </ul>
+      </div>
+      
+      <div class="tabcontent" id="chronology">
         <strong>Mentions' chronology</strong>
         <ul>
           <li>...</li>
@@ -43,6 +62,7 @@
         </ul>
 
       </div>
+    </div>
       <div class="vis">
         <iframe
           src="https://player.vimeo.com/video/511028088?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -57,13 +77,17 @@
       <div class="wiki">
         <strong>Sigurd Leeder</strong><br />
         <ul>
-          <li>https://www.wikidata.org/wiki/Q547547</li>
+          <!-- Wikidata link -->
+          <li><a href="https://www.wikidata.org/wiki/Q547547" target="_blank">Wikidata</a></li>
+          <!-- SAPA link -->
+          <li><a href="http://data.performing-arts.ch/a/49187985-04f9-4280-be72-dc316d9c1e01" target="_blank">SAPA</a></li>
         </ul>
       </div>
       <div class="item">did you know...?</div>
       <div class="item">there's a video above me</div>
       <div class="item">still above me</div>
-      <div class="item">bottom right</div>
+      <!-- if not null, image -->
+      <div class="item"><img src="https://media.performing-arts.ch/iiif/image/1027-9-4-6-6/full/!200,200/0/color.jpg"/></div>
     </div>
     <footer></footer>
   </body>
