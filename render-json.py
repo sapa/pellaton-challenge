@@ -58,6 +58,7 @@ class Entity(object):
         if uri == None or uri == '':
             return None, None, None
         dob, dod, tls = None, None, None
+        print(uri);
         q = uri[31:]
         url = f'https://www.wikidata.org/w/api.php?action=wbgetclaims&entity={q}&format=json'
         resp = requests.get(url=url)
@@ -98,7 +99,10 @@ class Entity(object):
 class Segment(object):
 
     def __init__(self, r: pd.Series, entities_dict: dict):
-        self.start = r['start'].strip('()')
+        tc = r['start'].strip('()')
+        # convert timecode in seconds
+        tcl = tc.split(':')
+        self.start = sum([pow(60, len(tcl) - i - 1) * int(x) for i, x in enumerate(tcl)])
         self.text = r['text']
         self.entities = [] 
         if not pd.isnull(r['entities']):
