@@ -22,11 +22,10 @@
       <div class="item heading">Additional information & material</div>
       <div class="NER">
         <div class="tabcontent" id="all" style="display: block;">
-          <form class="example" action="action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
+          <form>
+            <input type="search" class="form-control" id="entity-search" aria-describedby="search-help">
           </form>
-          <div id="entities" style="max-height: 420px; overflow-y: scroll;"></div>
+          <div id="entities" style="padding-top: 10px; max-height: 410px; overflow-y: scroll;"></div>
         </div>
         <div class="tabcontent" id="chronology"></div>
       </div>
@@ -37,7 +36,7 @@
       <div class="wiki" id="entities_info" style="max-height: 480px; overflow-y: scroll;"></div>
       <div class="item">did you know...?</div>
       <div class="middle">
-        <div id="transcript" style="max-height: 200px; overflow-y: scroll;"></div>
+        <div id="transcript" style="height: 200px; overflow-y: scroll;"></div>
       </div>
       <div class="item"></div>
     </div>

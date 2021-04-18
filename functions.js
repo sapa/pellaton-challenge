@@ -11,6 +11,13 @@ player.getVideoTitle().then(function(title) {
     console.log('title:', title);
 });
 
+const searchfield = document.getElementById('entity-search');
+searchfield.addEventListener('input', on_search_update);
+
+function on_search_update(e) {
+  filter_entities(e.target.value)
+}
+
 let request = new XMLHttpRequest();
 request.open('GET', 'pellaton.json');
 request.responseType = 'json';
@@ -35,7 +42,21 @@ function show_entities() {
           on_entity_select(this);
         }, true);
         entities_list.appendChild(entity);
+        entities[i].node = entity;
     }
+}
+
+function filter_entities(haystring) {
+  console.log(haystring);
+  console.log(entities.length);
+  for (var i = 0; i < entities.length; i++) { 
+    var e = entities[i];
+    if (e.name.toLowerCase().includes(haystring.toLowerCase())) {
+      e.node.style = 'display: block;';
+    } else {
+      e.node.style = 'display: none;';
+    }
+  }
 }
 
 function on_entity_select(entity) {
@@ -46,7 +67,7 @@ function on_entity_select(entity) {
                 if (segments[i].entities[e] == entity._data.name) {
                     player.setCurrentTime(segments[i].start);
                     player.play();
-                    show_segment_entities(segments[i].start);
+                    show_segment_infos(segments[i].start);
                     return
                 }
             }
@@ -69,13 +90,16 @@ function add_info(target_list, info_object, info_name, info_type) {
     }
 }
 
-function show_segment_entities(start) {
+function show_segment_infos(start) {
+    var segment_transscript = document.getElementById('transcript');
+    segment_transscript.innerText = '';
     var segment_info = document.getElementById('entities_info');
     segment_info.innerText = '';
     var info_list = document.createElement('ul');
     segment_info.appendChild(info_list);
     for (var i = 0; i < segments.length; i++) { 
         if (segments[i].start == start) {
+            segment_transscript.innerText = segments[i].text;
             var found_entities = [];
             if (typeof segments[i].entities == "object") {
                 for (var j = 0; j < segments[i].entities.length; j++) {
@@ -117,7 +141,7 @@ function on_player_progress(seconds) {
     }
     if (l != current_segment_start) {
         current_segment_start = l;
-        show_segment_entities(segments[i].start);
+        show_segment_infos(segments[i].start);
     }
 }
 
