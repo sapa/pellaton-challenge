@@ -171,3 +171,11 @@ h1 {
 a {
   text-align: center;
 }
+
+li.entity-link {
+  cursor: pointer;
+}
+
+li.entity-link:hover {
+  color: grey;
+}

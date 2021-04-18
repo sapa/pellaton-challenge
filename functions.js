@@ -28,6 +28,7 @@ function show_entities() {
     entities_div.appendChild(entities_list);
     for (var i = 0; i < entities.length; i++) { 
         var entity = document.createElement('li');
+        entity.setAttribute("class", "entity-link");
         entity._data = entities[i];
         entity.innerHTML = entities[i].name;
         entity.addEventListener('click', function () {
