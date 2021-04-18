@@ -79,7 +79,7 @@ function add_info(target_list, info_object, info_name, info_type) {
     if (typeof info_object[info_name] == "string") {
         var li = document.createElement('li');
         if (info_type == "link") {
-            li.innerHTML = '<a href="' + info_object[info_name] + '" target="_blank">' + info_name + '</a>';
+            li.innerHTML = '<a href="' + info_object[info_name] + '" target="_blank">' + info_name.replace("sapa", "SAPA").replace("wikidata", "Wikidata") + '</a>';
         } else if (info_type == "image") {
             img_path = info_object[info_name].replace("/max/", "/!200,200/");
             li.innerHTML = '<img src="' + img_path + '" width="200" height"200" />';
