@@ -135,13 +135,13 @@ function on_player_progress(seconds) {
     var l = 0;
     for (var i = 0; i < segments.length; i++) { 
         if (seconds < segments[i].start){
-            break
+          break
         }
-        l = s;
+        l = segments[i].start;
     }
     if (l != current_segment_start) {
-        current_segment_start = l;
-        show_segment_infos(segments[i].start);
+      current_segment_start = l;
+      show_segment_infos(segments[i].start);
     }
 }
 
