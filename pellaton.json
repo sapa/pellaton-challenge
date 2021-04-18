@@ -3278,7 +3278,7 @@
             "name": "Pawlowa",
             "type": "PER",
             "sapa": "http://data.performing-arts.ch/a/959dde78-b62f-44ac-915d-b4e8f4cf0ceb",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Anna_Pavlova_1916.jpg?uselang=de"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Anna_Pavlova_1916.jpg"
         },
         {
             "name": "Periode",
@@ -3313,7 +3313,7 @@
             "sapa": "http://data.performing-arts.ch/a/1e971692-2469-43aa-a219-30771262d139",
             "dob": "27.7.1940",
             "dod": "30.6.2009",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pina_Bausch.jpg?uselang=de"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pina_Bausch.jpg"
         },
         {
             "name": "Poltern",
@@ -3459,7 +3459,7 @@
             "name": "Safa",
             "type": "LOC",
             "wikidata": "http://www.wikidata.org/entity/Q1595342",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/ETH-BIB-Z\u00fcrich%2C_Saffa-LBS_H1-021321.tif?uselang=de"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/ETH-BIB-Z%C3%BCrich%2C_Safta-frut_AG%2C_Saffa_im_Bau-LBS_H1-021073.tif/lossy-page1-2560px-ETH-BIB-Z%C3%BCrich%2C_Safta-frut_AG%2C_Saffa_im_Bau-LBS_H1-021073.tif.jpg"
         },
         {
             "name": "SAPA",
