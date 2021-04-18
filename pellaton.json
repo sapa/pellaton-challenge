@@ -2009,7 +2009,7 @@
         {
             "name": "Amerika-Tournee",
             "type": "MISC",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-5-4-158/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-5-4-158/full/max/0/color.jpg"
         },
         {
             "name": "Amerikaner",
@@ -2066,7 +2066,7 @@
         {
             "name": "Ballet Jooss",
             "type": "ORG",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-5-2-35/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-5-2-35/full/max/0/color.jpg"
         },
         {
             "name": "Barbara",
@@ -2413,7 +2413,7 @@
             "name": "Erika Ackermann",
             "type": "PER",
             "sapa": "http://data.performing-arts.ch/a/d7f8ddb0-91d1-463a-90b0-1ccef24009e5",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-6-8-44-7/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-6-8-44-7/full/max/0/color.jpg"
         },
         {
             "name": "Erster Weltkrieg",
@@ -2468,7 +2468,7 @@
                 "Folkwang Schule"
             ],
             "wikidata": "http://www.wikidata.org/entity/Q521612",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-5-11-41/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-5-11-41/full/max/0/color.jpg"
         },
         {
             "name": "Franken",
@@ -2760,7 +2760,7 @@
         {
             "name": "Jooss-T\u00e4nzer",
             "type": "MISC",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-9-4-2-12/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-9-4-2-12/full/max/0/color.jpg"
         },
         {
             "name": "Joseph Brodsky",
@@ -3008,7 +3008,7 @@
             "name": "Margit Huber",
             "type": "PER",
             "wikidata": "http://www.wikidata.org/entity/Q95201297",
-            "image": "https://media.performing-arts.ch/iiif/image/1027-6-8-31-20/full/max/color.jpg"
+            "image": "https://media.performing-arts.ch/iiif/image/1027-6-8-31-20/full/max/0/color.jpg"
         },
         {
             "name": "Margot Fonteyn",
