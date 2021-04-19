@@ -74,7 +74,6 @@ function on_entity_select(entity) {
                 if (segments[i].entities[e] == entity._data.name) {
                     player.setCurrentTime(segments[i].start);
                     player.play();
-                    show_segment_infos(segments[i].start);
                     return
                 }
             }
@@ -98,7 +97,6 @@ function add_info(target_list, info_object, info_name, info_type) {
 }
 
 function show_segment_infos(start) {
-    current_segment_start = start;
     var segment_transscript = document.getElementById('transcript');
     segment_transscript.innerText = '';
     var segment_info = document.getElementById('entities_info');
@@ -140,15 +138,16 @@ function show_segment_infos(start) {
 }
 
 function on_player_progress(seconds) {
-    var l = 0;
+    var l = segments[segments.length-1].start;
     for (var i = 0; i < segments.length; i++) { 
         if (seconds < segments[i].start){
-          break
+            l = segments[Math.max(i-1, 0)].start;
+            break
         }
-        l = segments[Math.max(i-1, 0)].start;
     }
     if (l != current_segment_start) {
-        show_segment_infos(l);
+        current_segment_start = l;
+        show_segment_infos(current_segment_start);
     }
 }
 
