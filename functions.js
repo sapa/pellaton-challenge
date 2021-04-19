@@ -56,16 +56,14 @@ function show_entities() {
 function filter_entities(haystring) {
     var haystring = searchfield.value;
     var selected_type = document.querySelector('input[name="entity_type"]:checked').id;
-  console.log(haystring, selected_type);
-  console.log(entities.length);
-  for (var i = 0; i < entities.length; i++) { 
-    var e = entities[i];
-    if (e.name.toLowerCase().includes(haystring.toLowerCase()) && (e.type==selected_type || selected_type=="ALL")) {
-      e.node.style = 'display: block;';
-    } else {
-      e.node.style = 'display: none;';
+    for (var i = 0; i < entities.length; i++) { 
+        var e = entities[i];
+        if (e.name.toLowerCase().includes(haystring.toLowerCase()) && (e.type==selected_type || selected_type=="ALL")) {
+            e.node.style = 'display: block;';
+        } else {
+            e.node.style = 'display: none;';
+        }
     }
-  }
 }
 
 function on_entity_select(entity) {
@@ -149,8 +147,7 @@ function on_player_progress(seconds) {
         l = segments[i].start;
     }
     if (l != current_segment_start) {
-      current_segment_start = l;
-      show_segment_infos(segments[i].start);
+        show_segment_infos(segments[i-1].start);
     }
 }
 
