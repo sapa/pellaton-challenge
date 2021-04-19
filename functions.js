@@ -144,7 +144,7 @@ function on_player_progress(seconds) {
         if (seconds < segments[i].start){
           break
         }
-        l = segments[i].start;
+        l = segments[i-1].start;
     }
     if (l != current_segment_start) {
         show_segment_infos(segments[i-1].start);
