@@ -13,9 +13,14 @@
   <body>
     <div id="nav">The Pellaton Experience</div>
       <div class="main">
-      <div class="tab">
-        <button class="tablinks active" onclick="openTab(event, 'all')">All mentions</button>
-        <button class="tablinks" onclick="openTab(event, 'chronology')">Mentions' chronology</button>
+      <div class="item heading" style="padding: 12px;">
+        <form id="type-selector">
+          <input type="radio" name="entity_type" id="ALL" checked /><label>All</label>
+          <input type="radio" name="entity_type" id="PER" /><label>Persons</label>
+          <input type="radio" name="entity_type" id="ORG" /><label>Groups</label>
+          <input type="radio" name="entity_type" id="LOC" /><label>Locations</label>
+          <input type="radio" name="entity_type" id="MISC" /><label>Misc</label>
+        </form>
       </div>
       <div class="item heading">Videointerview mit Ursula Pellaton</div>
       <div class="item heading">Lausanne, 2019/05/27</div>

@@ -11,11 +11,18 @@ player.getVideoTitle().then(function(title) {
     console.log('title:', title);
 });
 
+const typeselector = document.getElementById('type-selector');
+typeselector.addEventListener('input', on_type_update);
+
 const searchfield = document.getElementById('entity-search');
 searchfield.addEventListener('input', on_search_update);
 
+function on_type_update(e) {
+    filter_entities();
+}
+
 function on_search_update(e) {
-  filter_entities(e.target.value)
+  filter_entities()
 }
 
 let request = new XMLHttpRequest();
@@ -47,11 +54,13 @@ function show_entities() {
 }
 
 function filter_entities(haystring) {
-  console.log(haystring);
+    var haystring = searchfield.value;
+    var selected_type = document.querySelector('input[name="entity_type"]:checked').id;
+  console.log(haystring, selected_type);
   console.log(entities.length);
   for (var i = 0; i < entities.length; i++) { 
     var e = entities[i];
-    if (e.name.toLowerCase().includes(haystring.toLowerCase())) {
+    if (e.name.toLowerCase().includes(haystring.toLowerCase()) && (e.type==selected_type || selected_type=="ALL")) {
       e.node.style = 'display: block;';
     } else {
       e.node.style = 'display: none;';
