@@ -98,6 +98,7 @@ function add_info(target_list, info_object, info_name, info_type) {
 }
 
 function show_segment_infos(start) {
+    current_segment_start = start;
     var segment_transscript = document.getElementById('transcript');
     segment_transscript.innerText = '';
     var segment_info = document.getElementById('entities_info');
@@ -144,10 +145,10 @@ function on_player_progress(seconds) {
         if (seconds < segments[i].start){
           break
         }
-        l = segments[i-1].start;
+        l = segments[Math.max(i-1, 0)].start;
     }
     if (l != current_segment_start) {
-        show_segment_infos(segments[i-1].start);
+        show_segment_infos(l);
     }
 }
 
