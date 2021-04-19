@@ -117,7 +117,7 @@ function show_segment_infos(start) {
                             if (entities[k].name == e) {
                                 var entity = document.createElement('li');
                                 entity._data = entities[k];
-                                entity.innerHTML = entities[k].name;
+                                entity.innerHTML = "<div class='entity_name'>" + entities[k].name + "</span>";
                                 // entity.addEventListener('click', function () {
                                 //     on_entity_select(this);
                                 // }, true);

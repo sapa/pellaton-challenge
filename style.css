@@ -184,3 +184,16 @@ li.entity-link {
 li.entity-link:hover {
   color: grey;
 }
+
+#entities_info, #entities_info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entity_name {
+  padding: 4px;
+  background-color: #eeeeee;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
