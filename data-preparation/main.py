@@ -1,8 +1,4 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-import codecs
 import re
 from datetime import datetime
 import spacy
@@ -14,8 +10,8 @@ def parse_ner(text):
     nlp = spacy.load("de_core_news_sm")
     doc = nlp(text)
 
-    # document level e.start_char, e.end_char,
-    ents = [(e.text, e.label_) for e in doc.ents]
+    # more info can be extracted such as: e.start_char, e.end_char
+    ents = [(e.text, e.label_) for e in doc.ents] # returns a list of tuples [(Zurich, LOC), (Ursula, PER) ...]
     return ents
 
 def get_sec(time_str):
@@ -57,9 +53,8 @@ def extract_entities_per_paragraph(text_split_on_timestamp):
 
     return entities_list_all_paragraphs
 
-
 def preprocess_text(paragraph):
-    paragraph = paragraph.replace("[Anm. Transkription:", "(").replace("]",")").replace("(unv.)", "(?)").replace("unv.", "?")
+    paragraph = paragraph.replace("[Anm. Transkription:", "(").replace("]",")").replace("(unv.)", "(?)")
     return paragraph
 
 def prepare_and_annotate_paragraphs(text_split_on_timestamp, res_timestamps):
@@ -73,8 +68,6 @@ def prepare_and_annotate_paragraphs(text_split_on_timestamp, res_timestamps):
     df = DataFrame({'Start': res_timestamps, 'Content': preprocessed_paragraphs, 'Entities': entities_list_all_paragraphs})
     df.to_excel("time_segmented_content_entities.xlsx", sheet_name='sheet1', index=False)
 
-
-
 def get_timestamps_statistics(res_timestamps):
     paragraph_lengths = []
     i, j = 0,1
@@ -87,13 +80,16 @@ def get_timestamps_statistics(res_timestamps):
     print("AVG diff length (s):", sum(paragraph_lengths)/len(paragraph_lengths), paragraph_lengths)
 
 def read_file(filename):
-    # Use a breakpoint in the code line below to debug your script.
     with open(filename, 'r', encoding = 'utf-16') as file:
         text = file.read()
 
+    # Remove all intermediate timestamps (usually appear together with a comment in the middle of a sentence/paragraph)
+    text = re.sub("\(unv., .{2}:.{2}\)", "(?)", text)
+    text = re.sub(", .{2}:.{2}]", "]", text)
+
     text_split_on_timestamp = re.compile(r'\(.{2}:.{2}\)|\(.{1}:.{2}:.{2}\)').split(text)
     print("Nr paragraphs: ",len(text_split_on_timestamp))
-    #extract_entities(text_split_on_timestamp, print=True)
+    #extract_unique_entities(text_split_on_timestamp, print=True)
 
     res_timestamps = re.findall(r'\(.{2}:.{2}\)|\(.{1}:.{2}:.{2}\)', text)
     print("Nr timestamps: ", len(res_timestamps), res_timestamps)
@@ -101,10 +97,6 @@ def read_file(filename):
     prepare_and_annotate_paragraphs(text_split_on_timestamp, res_timestamps)
 
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     filename = "20192705_Pellaton_Ausdruckstanz_unkorrigiert.txt"
     read_file(filename)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
